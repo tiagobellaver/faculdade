@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Locadora Revolution</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <link href="css/plugins/morris.css" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+ 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Revolution</a>
+            </div>
+            
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="images/administrador.jpg" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Administrador</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Hoje às 15:12</p>
+                                        <p>Novo filme adicionado a categoria Drama.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                             <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="images/administrador.jpg" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Administrador</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Hoje às 10:12</p>
+                                        <p>Aluguel do filme "Velozes e Furiosos 8" para o usuário 0246</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="images/sistema.jpg" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Sistema</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Hoje às 10:00</p>
+                                        <p>Usuário 0159 está com atraso na devolução. </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Ler todas as Mengagens.</a>
+                        </li>
+                    </ul>	
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Administrador <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Mensagens</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Configurações</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Sair</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="active">
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-edit"></i> Cadastro <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="cadfilme.html">Filmes</a>
+                            </li>
+                            <li>
+                                <a href="cadgenero.html">Gêneros</a>
+                            </li>
+                             <li>
+                                <a href="cadcliente.html">Clientes</a>
+                            </li>
+                               <li>
+                                <a href="cadcategoria.html">Categoria</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="consulta.html"><i class="fa fa-fw fa-table"></i> Consulta</a>
+                    </li>
+                    <li>
+                        <a href="aluguel.html"><i class="fa fa-fw fa-wrench"></i> Aluguel / Devolução</a>
+					</li>
+                    <li>
+                        <a href="reserva.html"><i class="fa fa-fw fa-desktop"></i> Reservas</a>
+                    </li>
+                    <li>
+                        <a href="clientes.html"><i class="fa fa-fw fa-bar-chart-o"></i> Clientes</a>
+                    </li>
+                    <li>
+                        <a href="catalogo.html"><i class="fa fa-fw fa-file"></i> Catálogo</a>
+					</li>
+					</ul>
+			</div>
+        </nav>
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Dashboard <small>Estatísticas</small>
+                        </h1>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="alert alert-info alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                            <i class="fa fa-info-circle"></i>  Usuário <strong>0159</strong> está com o aluguel de 2 filmes atrasado! 
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-comments fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">6</div>
+                                        <div>Novos Usuários!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Ver Detalhes</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-green">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-tasks fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">12</div>
+                                        <div>Novos Filmes!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Ver Detalhes</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-yellow">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-shopping-cart fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">124</div>
+                                        <div>Novos Aluguéis!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Ver Detalhes</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-red">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-support fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">1</div>
+                                        <div>Alerta!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#">
+                                <div class="panel-footer">
+                                    <span class="pull-left">Ver Detalhes</span>
+                                    <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-bar-chart-o fa-fw"></i> Estatísticas</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div id="morris-area-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-long-arrow-right fa-fw"></i> Tipos de Aluguéis</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div id="morris-donut-chart"></div>
+                                <div class="text-right">
+                                    <a href="#">Ver Detalhes <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Controle</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">1 hora atrás</span>
+                                        <i class="fa fa-fw fa-user"></i> Novo filme adicionado a categoria Drama
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">5 horas atrás</span>
+                                        <i class="fa fa-fw fa-user"></i> Aluguel do filme "xXx: Reativado" para o usuário 0069
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">10 horas atrás</span>
+                                        <i class="fa fa-fw fa-check"></i> Usuário 0360 cadastrado com sucesso
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">22 horas atrás</span>
+                                        <i class="fa fa-fw fa-user"></i> Novo filme adicionado a categoria Ação
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">2 dias atrás</span>
+                                        <i class="fa fa-fw fa-user"></i> Aluguel do filme "Alemão" para o usuário 0164
+                                    </a>
+                                    <a href="#" class="list-group-item">
+                                        <span class="badge">2 dias atrás</span>
+                                        <i class="fa fa-fw fa-check"></i> Usuário 0359 cadastrado com sucesso
+                                    </a>
+                                    
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">Ver todas as atividades <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-money fa-fw"></i> Fluxo de Caixa</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Usuário</th>
+                                                <th>Dia</th>
+                                                <th>Hora</th>
+                                                <th>Montante</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0360</td>
+                                                <td>10/05/2017</td>
+                                                <td>21:29</td>
+                                                <td>R$ 30,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0164</td>
+                                                <td>08/05/2017</td>
+                                                <td>9:20</td>
+                                                <td>R$ 20,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0359</td	>
+                                                <td>08/05/2017</td>
+                                                <td>9:12</td>
+                                                <td>R$ 30,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0183</td>
+                                                <td>08/05/2017</td>
+                                                <td>9:00</td>
+                                                <td>35,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0281</td>
+                                                <td>05/05/2017</td>
+                                                <td>21:48</td>
+                                                <td>R$ 15,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0021</td>
+                                                <td>05/05/2017</td>
+                                                <td>20:50</td>
+                                                <td>R$ 50,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0320</td>
+                                                <td>05/05/2017</td>
+                                                <td>20:48</td>
+                                                <td>R$ 30,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0019</td>
+                                                <td>05/05/2017</td>
+                                                <td>20:39</td>
+                                                <td>R$ 65,00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">Ver todas as transações <i class="fa fa-arrow-circle-right"></i></a>
+                               	 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/morris/raphael.min.js"></script>
+    <script src="js/plugins/morris/morris.min.js"></script>
+    <script src="js/plugins/morris/morris-data.js"></script>
+
+</body>
+
+</html>

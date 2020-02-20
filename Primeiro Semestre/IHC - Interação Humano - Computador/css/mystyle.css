@@ -1,0 +1,67 @@
+.galeria {
+    margin: 20px -10px 0;
+    overflow: hidden;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1em;
+    outline: none;
+}
+
+* {
+    outline: none!important;
+}
+
+div {
+    display: block;
+}
+
+element.style {
+}
+@media only screen and (max-width: 767px) {
+	.box-filme {
+    width: 50%;
+}
+
+.box-filme {
+    width: 20%;
+    padding: 0 10px;
+    margin: 0 0 18px;
+    float: left;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1em;
+    outline: none;
+}
+
+* {
+    outline: none!important;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+	}

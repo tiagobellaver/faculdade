@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Cadastro de Filmes - Locadora Revolution</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Revolution</a>
+			</div>
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="images/administrador.jpg" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Administrador</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Hoje às 15:12</p>
+                                        <p>Novo filme adicionado a categoria Drama.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                             <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="images/administrador.jpg" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Administrador</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Hoje às 10:12</p>
+                                        <p>Aluguel do filme "Velozes e Furiosos 8" para o usuário 0246</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+       	                         <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="images/sistema.jpg" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>Sistema</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Hoje às 10:00</p>
+                                        <p>Usuário 0159 está com atraso na devolução. </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Ler todas as Mengagens.</a>
+                        </li>
+                    </ul>	
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Administrador <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Mensagens</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Configurações</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Sair</a>
+                        </li>
+                    </ul>
+                </li>
+			</ul>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="active">
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-edit"></i> Cadastro <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="cadfilme.html">Filmes</a>
+                            </li>
+                            <li>
+                                <a href="cadgenero.html">Gêneros</a>
+                            </li>
+                             <li>
+                                <a href="cadcliente.html">Clientes</a>
+                            </li>
+                             <li>
+                                <a href="cadcategoria.html">Categoria</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="consulta.html"><i class="fa fa-fw fa-table"></i> Consulta</a>
+                    </li>
+                    <li>
+                        <a href="aluguel.html"><i class="fa fa-fw fa-wrench"></i> Aluguel / Devolução</a>
+					</li>
+                    <li>
+                        <a href="reserva.html"><i class="fa fa-fw fa-desktop"></i> Reservas</a>
+                    </li>  
+                    <li>
+                        <a href="clientes.html"><i class="fa fa-fw fa-bar-chart-o"></i> Clientes</a>
+                    </li>          
+                    <li>
+                        <a href="catalogo.html"><i class="fa fa-fw fa-file"></i> Catálogo</a>
+					</li>
+					</ul>
+			</div>
+        </nav>	
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Cadastro de Filmes
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li>
+                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                            </li>
+                            <li class="active">
+                                <i class="fa fa-edit"></i> Cadastro
+                            </li>
+                            <li class="active">
+                                <i class="fa fa-edit"></i> Cadastro de Filmes
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form role="form">
+                            <div class="form-group">
+                                <label>Título </label>
+                                <input class="form-control" placeholder="Digite aqui">
+                            </div>
+                            <div class="form-group">
+                                <label>Diretor</label>
+                                <input class="form-control" placeholder="Digite aqui">
+                            </div>
+                            <div class="form-group">
+                                <label>Capa </label>
+                                <input type="file">
+                            </div>
+                            <div class="form-group">
+                                <label>Sinopse</label>
+                                <textarea class="form-control" rows="3" placeholder="Digite a sinopse do filme"></textarea>
+							</div>
+                        </form>
+                    </div>
+                        <form role="form">
+                            	<fieldset able>
+                              <div class="form-group">
+                                <label>Quantidade de Cópias</label>
+                                <select class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                           	  </div>
+                              <div class="form-group">
+                                <label>Classificação Etária</label>
+                                <select class="form-control">
+                                    <option>Livre</option>
+                                    <option>10 anos</option>
+                                    <option>12 anos</option>
+                                    <option>14 anos</option>
+                                    <option>16 anos</option>
+                                    <option>18 anos</option>
+                                </select>
+                              </div>
+                              </fieldset>
+                              <div class="form-group">
+                                <label>Tipo de Mídia</label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked>DVD
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2">Blu-Ray
+                                </label>
+							  </div>
+                               <fieldset able>
+                                <div class="form-group">
+                                <label>Gêneros</label>
+                                <select multiple class="form-control">
+                                    <option>Ação</option>
+                                    <option>Animação</option>
+                                    <option>Aventura</option>
+                                    <option>Comédia</option>
+                                    <option>Corrida</option>
+                                    <option>Documentário</option>
+                                    <option>Drama</option>
+                                    <option>Ficção Científica</option>
+                                    <option>Fantasia</option>
+                                    <option>Guerra</option>
+                                    <option>Infantil</option>
+                                    <option>Musical</option>
+                                    <option>Nacional</option>
+                                    <option>Religioso</option>
+                                    <option>Romance</option>
+                                    <option>Séries</option>
+                                    <option>Suspense</option>
+                                    <option>Terror</option>
+                                </select>
+									</div>	
+									</fieldset>
+									</form>
+							
+				</div>
+				
+            </div>
+				<button type="submit" class="btn btn-default">Salvar</button>
+                <button type="reset" class="btn btn-default">Cancelar</button>
+        </div>
+
+    </div>
+    
+    <script src="js/jquery.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
